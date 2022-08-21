@@ -23,7 +23,7 @@ async function events() {
     
     for (let i = 0; i < dataCol.length; i++) {
         for (let j = 0; j < dataRow.length; j++) {
-            if (dataRow[j].c[i] !== null) {
+            if (dataRow[j].c[i] !== null && typeof dataRow[j].c[i].v !== 'object') {
                 const dateData = dataRow[j].c[i].f;
                 const dateArray = dateData.split(' ');
                 const day = dateArray[0];
