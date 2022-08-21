@@ -18,6 +18,8 @@ async function events() {
 
     const dataCol = data.table.cols;
     const dataRow = data.table.rows;
+    console.log(dataCol);
+    console.log(dataRow);
     
     for (let i = 0; i < dataCol.length; i++) {
         for (let j = 0; j < dataRow.length; j++) {
@@ -79,6 +81,11 @@ function load(eventArray) {
                     const event = document.createElement('div');
                     event.classList.add('event');
                     event.innerText = eventArray[i].title;
+                    if (eventArray[i].title == 'Public Holiday') {
+                        event.style.backgroundColor = '#743f3f';
+                    } else if (eventArray[i].title == 'Patching Day') {
+                        event.style.backgroundColor = '#72743f'
+                    }
                     daySquare.appendChild(event);
                 }
             }
