@@ -18,8 +18,6 @@ async function events() {
 
     const dataCol = data.table.cols;
     const dataRow = data.table.rows;
-    console.log(dataCol);
-    console.log(dataRow);
     
     for (let i = 0; i < dataCol.length; i++) {
         for (let j = 0; j < dataRow.length; j++) {
