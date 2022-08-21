@@ -74,7 +74,7 @@ body {
     color: #FFFFFF;
   }
   
-  .day + #currentDay {
+  .day + #current-day {
     background-color:#747474;
   }
 
