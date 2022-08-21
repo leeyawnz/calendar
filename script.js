@@ -39,10 +39,11 @@ function load() {
 
         if (i > paddingDays) {
             daySquare.innerText = i - paddingDays;
-            
+
             if (i - paddingDays === day && nav === 0) {
                 daySquare.id = 'current-day';
             }
+
         } else {
             daySquare.classList.add('padding');
         }
