@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    background-color: #1c1c1c;
+    font-family: 'Lato', sans-serif;
+  }
+
+  button {
+    width: 75px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+  }
+  
+  #header {
+    padding: 5px;
+    color: #FFFFFF;
+    font-size: 48px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-between;
+    cursor: default;
+  }
+
+  #header button {
+    background-color:#747474;
+  }
+
+  #container {
+    width: 945px;
+    background-color: #1c1c1c;
+    border-radius: 10px;
+  }
+
+  #weekdays {
+    width: 100%;
+    display: flex;
+    color: #FFFFFF;
+    cursor: default;
+    text-align: center;
+  }
+
+  #weekdays div {
+    width: 125px;
+    padding: 5px;
+    font-size: 26px;
+  }
+
+  #calendar {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .day {
+    width: 125px;
+    padding: 5px;
+    height: 125px;
+    box-sizing: border-box;
+    background-color: #353434;
+    border-radius: 10px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    cursor: default;
+    color: #FFFFFF;
+  }
+  
+  .day + #currentDay {
+    background-color:#747474;
+  }
+
+  .event {
+    font-size: 12px;
+    padding: 3px;
+    background-color: #000000;
+    color: white;
+    border-radius: 5px;
+    max-height: 55px;
+    overflow: hidden;
+    cursor: default;
+  }
+  
+  .padding {
+    cursor: default !important;
+    background-color: #1c1c1c !important;
+    box-shadow: none !important;
+  }
