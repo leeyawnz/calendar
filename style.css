@@ -80,7 +80,7 @@ body {
 
   .event {
     font-size: 12px;
-    padding: 3px;
+    padding: 3px 3px 3px 5px;
     background-color: #3f743f;
     color: white;
     border-radius: 5px;
