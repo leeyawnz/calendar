@@ -41,7 +41,7 @@ body {
   #weekdays {
     width: 100%;
     display: flex;
-    color: #FFFFFF;
+    color: #000000;
     cursor: default;
     text-align: center;
   }
@@ -71,7 +71,7 @@ body {
     flex-direction: column;
     gap: 2px;
     cursor: default;
-    color: #000000;
+    color: #FFFFFF;
   }
   
   .day + #current-day {
