@@ -34,14 +34,14 @@ body {
 
   #container {
     width: 945px;
-    background-color: #1c1c1c;
+    background-color: #FFFFFF;
     border-radius: 10px;
   }
 
   #weekdays {
     width: 100%;
     display: flex;
-    color: #000000;
+    color: #FFFFFF;
     cursor: default;
     text-align: center;
   }
