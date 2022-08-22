@@ -4,7 +4,7 @@ body {
     display: flex;
     margin-top: 50px;
     justify-content: center;
-    background-color: #1c1c1c;
+    background-color: #FFFFFF;
     font-family: 'Lato', sans-serif;
   }
 
@@ -20,7 +20,7 @@ body {
   
   #header {
     padding: 5px;
-    color: #FFFFFF;
+    color: #000000;
     font-size: 48px;
     font-family: sans-serif;
     display: flex;
@@ -41,7 +41,7 @@ body {
   #weekdays {
     width: 100%;
     display: flex;
-    color: #FFFFFF;
+    color: #000000;
     cursor: default;
     text-align: center;
   }
@@ -71,7 +71,7 @@ body {
     flex-direction: column;
     gap: 2px;
     cursor: default;
-    color: #FFFFFF;
+    color: #000000;
   }
   
   .day + #current-day {
@@ -91,6 +91,6 @@ body {
   
   .padding {
     cursor: default !important;
-    background-color: #1c1c1c !important;
+    background-color: #FFFFFF !important;
     box-shadow: none !important;
   }
