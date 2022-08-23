@@ -85,19 +85,30 @@ function load(eventArray) {
                         event.style.backgroundColor = '#743f3f';
                     } else if (eventArray[i].title == 'Patching Day') {
                         event.style.backgroundColor = '#72743f'
-                    } else if (eventArray[i].title == 'EasyGR' || 
+                    } else if (eventArray[i].title == 'EasyGR' ||
+                               eventArray[i].title == 'EasyGR Notification' ||
                                eventArray[i].title == 'SoldierHealth' || 
+                               eventArray[i].title == 'SoldierHealth Notification' || 
                                eventArray[i].title == 'Navi' ||
+                               eventArray[i].title == 'Navi Notification' ||
                                eventArray[i].title == 'Ace' ||
+                               eventArray[i].title == 'Ace Notification' ||
                                eventArray[i].title == 'Digital Factory' || 
+                               eventArray[i].title == 'Digital Factory Notification' || 
                                eventArray[i].title == 'Book' ||
+                               eventArray[i].title == 'Book Notification' ||
                                eventArray[i].title == 'Smart ICT' ||
+                               eventArray[i].title == 'Smart ICT Notification' ||
                                eventArray[i].title == 'NDER' ||
+                               eventArray[i].title == 'NDER Notification' ||
                                eventArray[i].title == 'SafeGuardian' ||
+                               eventArray[i].title == 'SafeGuardian Notification' ||
                                eventArray[i].title == 'NSEA' ||
+                               eventArray[i].title == 'NSEA Notification' ||
                                eventArray[i].title == 'CDA1' ||
-                               eventArray[i].title == 'CDA2' ||
-                               eventArray[i].title == 'Mobile EMR') {
+                               eventArray[i].title == 'CDA1 Notification' ||
+                               eventArray[i].title == 'Mobile EMR' ||
+                               eventArray[i].title == 'Mobile EMR Notification') {
                         event.style.backgroundColor = '#3f5d74';
                     }
                         
