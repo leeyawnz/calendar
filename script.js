@@ -85,7 +85,7 @@ function load(eventArray) {
                         event.style.backgroundColor = '#743f3f';
                     } else if (eventArray[i].label == 'Patching Day') {
                         event.style.backgroundColor = '#72743f'
-                    } else if (eventArray[i].label.split(' ')[-1] ||
+                    } else if (eventArray[i].label.split(' ')[-1] == 'Notification' ||
                                eventArray[i].label == 'EasyGR' || 
                                eventArray[i].label == 'SoldierHealth' || 
                                eventArray[i].label == 'Navi' ||
