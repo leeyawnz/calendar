@@ -80,7 +80,7 @@ function load(eventArray) {
                 if (eventArray[i].date == dayString) {
                     const event = document.createElement('div');
                     event.classList.add('event');
-                    event.innerText = eventArray[i].label;
+                    event.innerText = eventArray[i].title;
                     if (eventArray[i].title == 'Public Holiday') {
                         event.style.backgroundColor = '#743f3f';
                     } else if (eventArray[i].title == 'Patching Day') {
