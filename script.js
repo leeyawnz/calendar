@@ -85,7 +85,21 @@ function load(eventArray) {
                         event.style.backgroundColor = '#743f3f';
                     } else if (eventArray[i].title == 'Patching Day') {
                         event.style.backgroundColor = '#72743f'
+                    } else if (event[i].title.split(' ')[-1] == 'Notification' || 
+                               event[i].title == 'EasyGR' || 
+                               event[i].title == 'SoldierHealth' || 
+                               event[i].title == 'Navi' ||
+                               event[i].title == 'Ace' ||
+                               event[i].title == 'Digital Factory' || 
+                               event[i].title == 'Book' ||
+                               event[i].title == 'Smart ICT' ||
+                               event[i].title == 'NDER' ||
+                               event[i].title == 'SafeGuardian' ||
+                               event[i].title == 'NSEA' ||
+                               event[i].title == 'CDA') {
+                        event.style.backgroundColor = '#3f5d74';
                     }
+                        
                     daySquare.appendChild(event);
                 }
             }
