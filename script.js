@@ -85,8 +85,7 @@ function load(eventArray) {
                         event.style.backgroundColor = '#743f3f';
                     } else if (eventArray[i].title == 'Patching Day') {
                         event.style.backgroundColor = '#72743f'
-                    } else if (event[i].title.split(' ')[-1] == 'Notification' || 
-                               event[i].title == 'EasyGR' || 
+                    } else if (event[i].title == 'EasyGR' || 
                                event[i].title == 'SoldierHealth' || 
                                event[i].title == 'Navi' ||
                                event[i].title == 'Ace' ||
@@ -96,7 +95,9 @@ function load(eventArray) {
                                event[i].title == 'NDER' ||
                                event[i].title == 'SafeGuardian' ||
                                event[i].title == 'NSEA' ||
-                               event[i].title == 'CDA') {
+                               event[i].title == 'CDA1' ||
+                               event[i].title == 'CDA2' ||
+                               event[i].title == 'Mobile EMR') {
                         event.style.backgroundColor = '#3f5d74';
                     }
                         
