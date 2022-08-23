@@ -81,23 +81,23 @@ function load(eventArray) {
                     const event = document.createElement('div');
                     event.classList.add('event');
                     event.innerText = eventArray[i].label;
-                    if (eventArray[i].label == 'Public Holiday') {
+                    if (eventArray[i].title == 'Public Holiday') {
                         event.style.backgroundColor = '#743f3f';
-                    } else if (eventArray[i].label == 'Patching Day') {
+                    } else if (eventArray[i].title == 'Patching Day') {
                         event.style.backgroundColor = '#72743f'
-                    } else if (eventArray[i].label == 'EasyGR' || 
-                               eventArray[i].label == 'SoldierHealth' || 
-                               eventArray[i].label == 'Navi' ||
-                               eventArray[i].label == 'Ace' ||
-                               eventArray[i].label == 'Digital Factory' || 
-                               eventArray[i].label == 'Book' ||
-                               eventArray[i].label == 'Smart ICT' ||
-                               eventArray[i].label == 'NDER' ||
-                               eventArray[i].label == 'SafeGuardian' ||
-                               eventArray[i].label == 'NSEA' ||
-                               eventArray[i].label == 'CDA1' ||
-                               eventArray[i].label == 'CDA2' ||
-                               eventArray[i].label == 'Mobile EMR') {
+                    } else if (eventArray[i].title == 'EasyGR' || 
+                               eventArray[i].title == 'SoldierHealth' || 
+                               eventArray[i].title == 'Navi' ||
+                               eventArray[i].title == 'Ace' ||
+                               eventArray[i].title == 'Digital Factory' || 
+                               eventArray[i].title == 'Book' ||
+                               eventArray[i].title == 'Smart ICT' ||
+                               eventArray[i].title == 'NDER' ||
+                               eventArray[i].title == 'SafeGuardian' ||
+                               eventArray[i].title == 'NSEA' ||
+                               eventArray[i].title == 'CDA1' ||
+                               eventArray[i].title == 'CDA2' ||
+                               eventArray[i].title == 'Mobile EMR') {
                         event.style.backgroundColor = '#3f5d74';
                     }
                         
