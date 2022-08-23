@@ -105,8 +105,8 @@ function load(eventArray) {
                                eventArray[i].title == 'SafeGuardian Notification' ||
                                eventArray[i].title == 'NSEA' ||
                                eventArray[i].title == 'NSEA Notification' ||
-                               eventArray[i].title == 'CDA1' ||
-                               eventArray[i].title == 'CDA1 Notification' ||
+                               eventArray[i].title == 'CDA' ||
+                               eventArray[i].title == 'CDA Notification' ||
                                eventArray[i].title == 'Mobile EMR' ||
                                eventArray[i].title == 'Mobile EMR Notification') {
                         event.style.backgroundColor = '#3f5d74';
